@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            background: #95a5a6;
+            font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            margin-bottom: 1em;
+        }
+
+        form{
+            width: 350px;
+            margin: 0 auto;
+            background: #ecf0f1;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+        }
+
+        fieldset{
+            border: none;
+            
+        }
+
+        legend{
+            padding: 1.5em;
+            text-align: center;
+            font-weight: bold;
+            color: #454e4f;
+            font-size: 1.2em;
+        }
+
+        input, label{
+            display: block;
+            width: 100%;
+        }
+
+        label{
+            margin-bottom: .25em;
+        }
+
+        input{
+            padding: .75em;
+            border-radius: 5px;
+            margin-bottom: 1.5em;
+            border: 1px solid #bbb;
+        }
+
+        .btn{
+            cursor: pointer;
+            background: rgb(22, 22, 75);
+            color: #fff;
+            
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .btn:first-of-type{
+            background: rgb(187, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Entre com seus dados de acesso</legend>
+            
+            <label for="user">User</label>
+            <input type="text" id="user" required autofocus>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <div class="container">
+            <input type="reset" value="Apagar" class="btn">
+            <input type="submit" value="Enter" class="btn">
+            </div>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
