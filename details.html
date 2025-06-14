@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+
+        }
+
+        details{
+            color: red;
+            background: #ccc;
+            margin-bottom: 1rem;
+            padding: .5rem;
+        }
+
+        details summary{
+            cursor: pointer;
+
+        }
+
+        details[open]{
+            background: aquamarine;
+            color: #000
+        }
+    </style>
+</head>
+<body>
+    <h1>Curso web design</h1>
+    <details>
+        <summary>Pré-requisitos</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsam, debitis eveniet accusamus fugit optio vel incidunt vero blanditiis non.</p>
+    </details>
+
+    <details open>
+        <summary>Carga horária</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsam, debitis eveniet accusamus fugit optio vel incidunt vero blanditiis non.</p>
+    </details>
+</body>
+</html>
