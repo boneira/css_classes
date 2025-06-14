@@ -1,0 +1,9 @@
+14/06/2025
+
+- Details e summary são ferramentas interessantes para mostrar conteúdos que queremos ocultar 
+- Criando inputs como o de texto, submit, password e fazendo um formulário de login
+- Vendo sobre alguns atributos importantes dentro dos inputs como required e autofocus
+- Criando uma tela de login com usuário e senha, além de botões (input submit) de enviar e de apagar (input reset) e adicionando CSS 
+- Criando uma pagina de registro, onde usamos o input email, number, date e radio, além de aprender os atributos para o number min='' e max=''
+- Fazendo um form com checkboxs para indicar a área de interesse do usuário e colocando eles dentro de labels para clicar no texto e selecionar o checkbox
+- Passando esse form pra select/option e vendo como funciona os atributos: multiple (que dá a possibilidade de clicar em várias opções) e o size (que diz a qtd de linhas). Usando o optgroup para agrupar cada tipo de opção
